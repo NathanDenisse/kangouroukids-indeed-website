@@ -1,0 +1,6 @@
+# Site client servi sur GitHub Pages sans authentification : la seule
+# protection est l'obscurité de l'URL. Double l'effet du <meta name="robots"
+# content="noindex, nofollow"> d'index.html, qu'un crawler peut ignorer avant
+# d'avoir chargé la page.
+User-agent: *
+Disallow: /
